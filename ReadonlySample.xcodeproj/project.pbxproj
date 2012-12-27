@@ -16,6 +16,7 @@
 		447D86FA168CF6EE00552613 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447D86F9168CF6EE00552613 /* ViewController.m */; };
 		447D86FD168CF6EE00552613 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447D86FB168CF6EE00552613 /* ViewController_iPhone.xib */; };
 		447D8700168CF6EE00552613 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447D86FE168CF6EE00552613 /* ViewController_iPad.xib */; };
+		447D8708168CF75B00552613 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 447D8707168CF75B00552613 /* Data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		447D86F9168CF6EE00552613 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		447D86FC168CF6EE00552613 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		447D86FF168CF6EE00552613 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		447D8706168CF75B00552613 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		447D8707168CF75B00552613 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				447D86FB168CF6EE00552613 /* ViewController_iPhone.xib */,
 				447D86FE168CF6EE00552613 /* ViewController_iPad.xib */,
 				447D86ED168CF6EE00552613 /* Supporting Files */,
+				447D8706168CF75B00552613 /* Data.h */,
+				447D8707168CF75B00552613 /* Data.m */,
 			);
 			path = ReadonlySample;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				447D86F3168CF6EE00552613 /* main.m in Sources */,
 				447D86F7168CF6EE00552613 /* AppDelegate.m in Sources */,
 				447D86FA168CF6EE00552613 /* ViewController.m in Sources */,
+				447D8708168CF75B00552613 /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Data.h"
 @interface ViewController : UIViewController
+
+@property (nonatomic, retain)NSObject* obj;
+@property (nonatomic, retain)Data* data;
+
+- (IBAction)pressedSet:(id)sender;
+- (IBAction)pressedRelease:(id)sender;
+- (IBAction)pressedCheck:(id)sender;
 
 @end

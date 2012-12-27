@@ -17,22 +17,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.obj = [NSObject new];
+    self.obj = [[NSObject alloc] init];
+    
+    NSLog(@"self.objのretainカウントは?");
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+
+
+- (IBAction)pressedSet:(id)sender {
+    self.data = [Data new];
+    [self.data setData:self.obj];
+    NSLog(@"self.objのretainカウントは?");
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
+- (IBAction)pressedRelease:(id)sender {
+    self.data = nil;
+    NSLog(@"self.objのretainカウントは?");
 }
+
+- (IBAction)pressedCheck:(id)sender {
+    NSLog(@"self.objのretainカウントは?");
+}
+
 
 @end
